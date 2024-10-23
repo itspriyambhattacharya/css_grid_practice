@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1 class="text-center" style="margin-bottom: 20px">CSS Grid</h1>
-    <div class="container">
+    <div class="container" style="margin: 20px 0px; padding: 15px">
       <h3 class="text-center" style="margin: 20px 0px">
         1. Simple Grid with equal columns
       </h3>
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="margin: 20px 0px; padding: 15px">
       <h3 class="text-center" style="margin: 20px 0px">
         2. Simple Grid with gaps
       </h3>
@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="margin: 20px 0px; padding: 15px">
       <h3 class="text-center" style="margin: 20px 0px">
         3. Grid with unequal column size
       </h3>
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="margin: 20px 0px; padding: 15px">
       <h3 class="text-center" style="margin: 20px 0px">
         4. Grid item placement
       </h3>
@@ -89,6 +89,29 @@
         >
           9
         </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin: 20px 0px; padding: 15px">
+      <h3 class="text-center" style="margin: 20px 0px">
+        5. Simple Grid with equal columns and row height
+      </h3>
+      <div
+        class="grid-container"
+        style="
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(3, 100px);
+        "
+      >
+        <div class="grid-item" style="background-color: blue">1</div>
+        <div class="grid-item" style="background-color: red">2</div>
+        <div class="grid-item" style="background-color: yellow">3</div>
+        <div class="grid-item" style="background-color: orange">4</div>
+        <div class="grid-item" style="background-color: yellowgreen">5</div>
+        <div class="grid-item" style="background-color: orangered">6</div>
+        <div class="grid-item" style="background-color: purple">7</div>
+        <div class="grid-item" style="background-color: pink">8</div>
+        <div class="grid-item" style="background-color: bisque">9</div>
       </div>
     </div>
   </body>
