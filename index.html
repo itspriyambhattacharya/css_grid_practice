@@ -114,5 +114,48 @@
         <div class="grid-item" style="background-color: bisque">9</div>
       </div>
     </div>
+
+    <div class="container" style="margin: 20px 0px; padding: 15px">
+      <h3 class="text-center" style="margin: 20px 0px">
+        6. Complex Grid Layout using grid-template-areas
+      </h3>
+      <div
+        class="grid-container"
+        style="
+          grid-template-areas: 'header header header' 'section section section' 'article article sidebar' 'footer footer footer';
+        "
+      >
+        <div
+          class="grid-item"
+          style="background-color: blue; grid-area: header"
+        >
+          website header
+        </div>
+        <div
+          class="grid-item"
+          style="background-color: red; grid-area: section"
+        >
+          website section
+        </div>
+        <div
+          class="grid-item"
+          style="background-color: yellow; grid-area: article"
+        >
+          website article
+        </div>
+        <div
+          class="grid-item"
+          style="background-color: orange; grid-area: sidebar"
+        >
+          website sidebar
+        </div>
+        <div
+          class="grid-item"
+          style="background-color: yellowgreen; grid-area: footer"
+        >
+          website footer
+        </div>
+      </div>
+    </div>
   </body>
 </html>
