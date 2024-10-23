@@ -123,6 +123,7 @@
         class="grid-container"
         style="
           grid-template-areas: 'header header header' 'section section section' 'article article sidebar' 'footer footer footer';
+          gap: 15px;
         "
       >
         <div
@@ -155,6 +156,30 @@
         >
           website footer
         </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin: 20px 0px; padding: 15px">
+      <h3 class="text-center" style="margin: 20px 0px">
+        7. Simple Grid to demonstrate justify-content and align-items properties
+      </h3>
+      <div
+        class="grid-container"
+        style="
+          grid-template-columns: repeat(3, 1fr);
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div class="grid-item" style="background-color: blue">1</div>
+        <div class="grid-item" style="background-color: red">2</div>
+        <div class="grid-item" style="background-color: yellow">3</div>
+        <div class="grid-item" style="background-color: orange">4</div>
+        <div class="grid-item" style="background-color: yellowgreen">5</div>
+        <div class="grid-item" style="background-color: orangered">6</div>
+        <div class="grid-item" style="background-color: purple">7</div>
+        <div class="grid-item" style="background-color: pink">8</div>
+        <div class="grid-item" style="background-color: bisque">9</div>
       </div>
     </div>
   </body>
